@@ -19,6 +19,7 @@ public class Car {
     private int series;
 
     @OneToOne(mappedBy = "car")
+    @MapsId
     private User user;
 
 
